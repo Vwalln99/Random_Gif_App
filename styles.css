@@ -1,42 +1,45 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
 }
-body{
+
+body {
     background-color: black;
+    display: grid;
 }
 
 label,
-input{
-    margin-left: 130px;
-    display: block;
+input {
     width: 100%;
     height: 2rem;
     text-align: center;
+    justify-content: center;
 }
-input{
-    margin-top:30px;
+
+input {
+    margin-top: 30px;
 }
-label{
+
+label {
     margin-top: 50px;
 }
 
-.form-area{
-width: 30vw;
-margin: 20px 0;
-text-align: center;
-color: white;
+.form-area {
+    width: 30vw;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
 }
 
-h1{
-text-align: center;
-margin: 20px;
-color: aliceblue;
-border: solid white 3px;
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: aliceblue;
+    border: solid white 3px;
 }
 
-img{
+img {
     margin-top: 20px;
     height: auto;
     width: 100%;
