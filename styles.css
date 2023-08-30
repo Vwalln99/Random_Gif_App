@@ -5,11 +5,12 @@
 }
 body{
     background-color: black;
+    display:grid;
 }
 
 label,
 input{
-    margin-left: 130px;
+    justify-content:center;
     display: block;
     width: 100%;
     height: 2rem;
